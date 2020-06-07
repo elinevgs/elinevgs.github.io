@@ -24,7 +24,7 @@
     text-align: center;
     padding: 24px 20px;
     text-decoration: none;
-    font-size: 21px;
+    font-size: 22px;
     text-decoration: none;
 }
 
@@ -45,10 +45,10 @@
     margin-top: 18px;
     margin-right: 20px;
     border: none;
-    font-size: 17px;
+    font-size: 14px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     .homenavigation a,
     .topnav input[type=text] {
         float: none;
@@ -79,7 +79,7 @@
     display: inline-grid;
     grid-row-gap: 50px;
     grid: 500px / auto auto auto;
-    width: 80%;
+    max-width: 75%;
 }
 
 .item1 {
@@ -108,7 +108,7 @@
 
 div.gallery {
     border: 1px solid #ccc;
-    max-width: 80%;
+    max-width: 75%;
     min-height: 450px;
     padding: 10px;
 }
@@ -138,10 +138,8 @@ h2 {
 }
 
 .sidebar {
-    display: inline-grid;
-    width: 19%;
+    width: 20%;
     float: right;
-    width: 19%;
     font-family: 'quicksand', 'sans serif';
     font-size: 15px;
 }
@@ -241,7 +239,7 @@ h3 {
 }
 .cookingbanner h1 {
     color: #aec6cf;
-    font-size: 5.5vw;
+    font-size: 5.2vw;
     font-weight: bolder;
     float: left;
     padding-top: 40px;
@@ -251,7 +249,7 @@ h3 {
 }
 .cookingintro {
     border-left: 1px solid #aec6cf;
-    font-size: 22px;
+    font-size: 20px;
     color: #aec6cf;
     text-align: left;
     max-width: 70%;
@@ -266,7 +264,7 @@ h3 {
 .cookingsidebar,
 .caringsidebar {
     float: right;
-    width: 19%;
+    width: 25%;
     font-family: 'quicksand', 'sans serif';
     font-size: 15px;
 }
@@ -350,7 +348,7 @@ h3 {
 .cookingrecipeonem {
     justify-items: center;
     border: 1px solid #ccc;
-    max-width: 70%;
+    max-width: 65%;
     min-height: 300px;
     padding: 10px;
     margin: 20px;
@@ -411,7 +409,7 @@ h3 {
 
 .caringbanner h1 {
     color: #aec6cf;
-    font-size: 7vw;
+    font-size: 5.5vw;
     font-weight: bolder;
     float: left;
     margin-top: 50px;
@@ -422,7 +420,7 @@ h3 {
 
 .caringintro {
     border-left: 1px solid #aec6cf;
-    font-size: 30px;
+    font-size: 24px;
     color: #aec6cf;
     text-align: left;
     max-width: 70%;
@@ -436,7 +434,7 @@ h3 {
 .caringactivity {
     justify-items: center;
     border: 1px solid #ccc;
-    max-width: 75%;
+    max-width: 65%;
     min-height: 300px;
     padding: 10px;
     margin: 20px;
@@ -459,7 +457,7 @@ h3 {
 
 .readingbanner h1 {
     color:#aec6cf;
-    font-size: 6vw;
+    font-size: 5.5vw;
     font-weight: bolder;
     font-family: 'quicksand';
     float: left;
@@ -470,7 +468,7 @@ h3 {
 
 .readingintro {
     border-left: 1px solid #aec6cf;
-    font-size: 20px;
+    font-size: 24px;
     color: #aec6cf;
     text-align: left;
     max-width: 70%;
@@ -485,7 +483,7 @@ h3 {
 .book {
     justify-items: center;
     border: 1px solid black;
-    max-width: 75%;
+    max-width: 65%;
     min-height: 300px;
     padding: 10px;
     margin: 20px;
